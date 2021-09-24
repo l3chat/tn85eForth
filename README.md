@@ -13,4 +13,4 @@ avrdude.exe -p attiny85  -c usbtiny -U efuse:w:0xFE:m
 
 # 1. Memory Map
 
-![map](media/tn85eForth_map.png)
+![eForth attiny85 memory map](media/tn85eForth_map.png)
