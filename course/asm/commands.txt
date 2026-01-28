@@ -1,0 +1,5 @@
+avrasm2.exe -fI -o tn85_stage1.hex tn85_bmforth_stage1_reset_blink_PB3.asm
+avrasm2.exe -fI -o stage2.hex tn85_bmforth_stage2_uart_test.asm
+
+
+avrdude -c usbasp -p t85 -U flash:w:tn85_stage1.hex:i
